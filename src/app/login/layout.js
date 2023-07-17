@@ -2,6 +2,7 @@
 import Link from "next/link";
 import "./login.css";
 import { usePathname } from "next/navigation";
+
 const Layout = ({ children }) => {
   const pathName = usePathname();
 //   console.log({ pathName });
