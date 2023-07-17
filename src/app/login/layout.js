@@ -4,7 +4,7 @@ import './login.css'
 import { usePathname } from "next/navigation";
 const Layout=({children})=>{
     const pathName = usePathname()
-    console.log({pathName})
+    // console.log({pathName})
     return (
         <div>
             <ul className="login-menu">
