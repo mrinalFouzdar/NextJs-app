@@ -1,11 +1,21 @@
-.login-menu{
-    display: flex;
-    justify-content: space-around;
+.login-menu {
+  display: flex;
+  /* justify-content: space-around; */
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-li{
-   list-style: none; 
+.login-menu li {
+  margin-left: 25px;
+  list-style-type: none;
+}
+
+.login-menu h4 {
+  margin: 0px;
+}
+
+.heading {
+  color: rgb(196, 66, 66);
+  text-align: center;
 }

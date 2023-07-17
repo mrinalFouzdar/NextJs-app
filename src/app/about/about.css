@@ -1,0 +1,20 @@
+.about-menu{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.about-menu li{
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+.about-menu h4{
+    margin: 0px;
+}
+.heading{
+    color: rgb(165, 45, 45);
+    text-align: center;
+}
